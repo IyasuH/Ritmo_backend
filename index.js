@@ -15,7 +15,7 @@ app.use((req, res, next) => {
     next();
 })
 
-const allowedOrigins = ['http://localhost:3000', 'https://ritmo-one.vercel.app/', 'https://ritmo-git-main-iyasuh.vercel.app/']
+const allowedOrigins = ['http://localhost:3000', 'https://ritmo-one.vercel.app', 'https://ritmo-git-main-iyasuh.vercel.app']
 
 app.use(cors({
       origin: allowedOrigins,
